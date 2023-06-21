@@ -4,7 +4,7 @@
    become: true
 
    tasks:
-   -  name: install htop
+   -  name: install vim
       yum:
         name: vim
         state: present
